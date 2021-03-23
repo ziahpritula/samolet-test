@@ -45,4 +45,5 @@ export interface IRegion {
   users_children: number,
   visits: number,
   visits_sites: number,
+  [key: string]: string | number,
 }
