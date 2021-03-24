@@ -27,11 +27,6 @@ const App = () => {
   }, []);
 
   let result;
-
-  if (stateData === "loading") {
-    result = <Loader size={48} />
-  }
-
   
   if (stateData === "loading") {
     result = <Loader size={48} />
